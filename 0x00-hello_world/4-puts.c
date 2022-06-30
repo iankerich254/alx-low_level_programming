@@ -5,6 +5,10 @@
  * 
  * Return 0
  */
+
+/*
+ * The main function of the program
+ */
 int main(void)
 {
 	/*
