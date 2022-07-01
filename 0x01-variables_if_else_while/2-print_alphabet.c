@@ -10,7 +10,7 @@ int main(void)
 {
 	/* My program goes here */
 
-	for (character = 'a'; character <= 'z'; character++)
+	for (int character = 'a'; character <= 'z'; character++)
 		putchar(character);
 	putchar("\n");
 	return (0);
