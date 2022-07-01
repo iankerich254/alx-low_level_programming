@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/* Additional headers go here */
-
-/* Main function goes here */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
