@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /* Additional headers go here */
 
 /* Main function goes here */
@@ -7,6 +8,8 @@ int main(void)
 {
 	int n;
 
+	srand(time(0));
+	n = rand() - RAND_MAX/2;
 	/* My code goes here */
 	if (n > 0)
 		printf("%d is positive\n", n);
