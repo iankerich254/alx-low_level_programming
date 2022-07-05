@@ -4,7 +4,7 @@
  *
  * Return: Always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	/* My code goes here */
 	char i;
@@ -14,5 +14,4 @@ int main(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }
