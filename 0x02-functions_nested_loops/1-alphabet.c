@@ -5,8 +5,8 @@
  * Return: Always 0
  */
 
+void print_alphabet(void)
 /* Function prints alphabets */
-void print_alphabet(void) /* Print alphabets */
 {
 	/* My code goes here */
 	char i;
