@@ -1,12 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0
+ * print_alphabet - prints alphabets
  */
 
 void print_alphabet(void)
-/* Function prints alphabets */
 {
 	/* My code goes here */
 	char i;
