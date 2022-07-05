@@ -2,7 +2,9 @@
 /**
  * int _islower(int c) - indicates whether a character is lowercase or not
  *
- * int c -  ASCII value of the character
+ * @c -  ASCII value of the character to be checked
+ *
+ * Return: 1 if lower and 0  if otherwise
  */
 
 int _islower(int c)
