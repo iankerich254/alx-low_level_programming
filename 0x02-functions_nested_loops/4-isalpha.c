@@ -7,7 +7,7 @@
  * Return: 1 if alphatet and 0  if otherwise
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	/* My code goes here */
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
