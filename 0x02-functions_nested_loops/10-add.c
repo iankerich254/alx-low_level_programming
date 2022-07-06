@@ -6,7 +6,7 @@
 int add(int i, int j)
 {
 	/* My code goes here */
-	int i,j,k;
+	int k;
 	k = i + j;
 
 	return k;
