@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * add - adds two integers and returns their sum
+ * @add - adds two integers and returns their sum
  *
- * i - first integer
+ * @i - first integer
  *
- * j - second integer
+ * @j - second integer
  */
 
 int add(int i, int j)
@@ -14,5 +14,5 @@ int add(int i, int j)
 
 	k = i + j;
 
-	return k;
+	return (k);
 }
