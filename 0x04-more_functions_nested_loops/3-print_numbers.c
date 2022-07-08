@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - function that prints integers from 0 to 9
+ * i - iterator
  * Return: none
  */
 void print_numbers(void)
