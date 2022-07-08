@@ -4,7 +4,7 @@
  * @c: an integer parameter
  * Return: returns an int
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 	{
