@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit - function that checks for uppercase characters
+ * _isdigit - function that checks for digits
  * @c: an integer parameter
  * Return: returns an int
  */
