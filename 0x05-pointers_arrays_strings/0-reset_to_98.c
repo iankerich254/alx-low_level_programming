@@ -7,7 +7,8 @@
  * Return: none
  */
 
-void reset_to_98(int *n) /* function that resets to 98 */
+void reset_to_98(int *n)
+/*function that resets to 98*/
 {
 	*n = 98;
 }
