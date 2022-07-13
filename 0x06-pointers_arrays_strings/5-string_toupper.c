@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *string_toupper - converts strings to uppercase
- * @s: first parameter
+ * @s: string parameter
  * Return: string capitalized
  */
 char *string_toupper(char *s)
