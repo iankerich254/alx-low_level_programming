@@ -2,7 +2,7 @@
 /**
  * *string_toupper - converts strings to uppercase
  * @s: first parameter
-  * Return: string capitalized
+ * Return: string capitalized
  */
 char *string_toupper(char *s)
 {
