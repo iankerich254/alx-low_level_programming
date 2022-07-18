@@ -22,7 +22,7 @@ void print_diagsums(int *a, int size)
 			if ((i + j) == (size - 1))
 				sum_B = sum_B + a[count];
 		}
-		j++;	
+		j++;
 	}
 	printf("%d, %d\n", sum_A, sum_B);
 }
