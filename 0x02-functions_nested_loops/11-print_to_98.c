@@ -23,6 +23,6 @@ void print_to_98(int n)
 		{
 			printf("%d, ", n++);
 		}
-		prinft("%d\n", n);
+		printf("%d\n", n);
 	}
 }
