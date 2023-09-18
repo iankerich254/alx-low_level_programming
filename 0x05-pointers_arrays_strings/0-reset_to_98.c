@@ -6,7 +6,7 @@
  *
  * Return: none
  */
-void reset_to_98(char *n)
+void reset_to_98(int *n)
 {
 	/* The function code goes here */
 	*n = 98;
