@@ -7,7 +7,7 @@
  * @index: index of node to locate
  * Return: NULL if node is inexistent, else the located node
  */
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+listint_t *get_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	unsigned int node;
 
