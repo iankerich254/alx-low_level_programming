@@ -4,7 +4,7 @@
  */
 
 #include "main.h"
-
+#include <uninstd.h>
 /**
  * append_text_to_file - Appends text at the end of a file.
  * @filename: A pointer to the name of the file.
