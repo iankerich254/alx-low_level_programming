@@ -1,33 +1,14 @@
 CC = gcc
-SRC = $(wildcard *.c)
+SRC = main.c holberton.c
 OBJ = $(SRC:.c=.o)
-NAME = school
-RM = rm -f
-CFLAGS += -Wall -Werror -Wextra -pedantic
-
+NAME = holberton
+CFLAGS = -Wall -Werror -Wextra -pedantic
 .PHONY: all clean oclean fclean re
-
-all: $(NAME)
-
-$(NAME): $(OBJ)
-	$(CC) $(OBJ) -o $@
-
-$(OBJ): $(SRC)
-	$(CC) $(CFLAGS) -c $< -o $@
-
+all: m.h $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 clean:
 	$(RM) *~ $(NAME)
-
 oclean:
 	$(RM) $(OBJ)
-
-fclean:
-	$(RM) *~ $(NAME)
-	$(RM) $(OBJ)
-
-re: fclean all
-
-# Check if m.h exists
-ifeq ($(wildcard m.h),)
-$(error m.h header file is missing)
-endif
+fclean: clean oclean
+re: oclean all
