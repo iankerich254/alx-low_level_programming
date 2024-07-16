@@ -22,12 +22,12 @@ void print_array(int *array, size_t left, size_t right)
 }
 
 /**
- * binary_search - Searches for a value in a sorted array using the binary search algorithm.
+ * binary_search - Searches for value in sorted array using the binary search.
  * @array: Pointer to the first element of the array to search in.
  * @size: Number of elements in the array.
  * @value: The value to search for.
  *
- * Return: The index where the value is located, or -1 if the value is not present
+ * Return: The index where the value is located, or -1 if the value is absent
  *         or the array is NULL.
  */
 int binary_search(int *array, size_t size, int value)
